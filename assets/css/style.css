@@ -62,6 +62,10 @@ float:right;
 
 }
 
+.card-link .codeLink {
+  text-align: center;
+}
+
 
   #footer {
     position: fixed;
