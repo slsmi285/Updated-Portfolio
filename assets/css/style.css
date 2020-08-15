@@ -1,4 +1,13 @@
-background: url("../images/concrete_seamless.png"){
+.container {
+  text-align: center;
+}
+.navbar {
+  display: inline-block;
+  
+ 
+}
+li {
+  display: inline-block;
 }
 #img1 {
 float: left;
@@ -111,4 +120,15 @@ float:right;
   }
   #me-content > p {
       font-size: small;
+}
+
+
+
+/*.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
 }
