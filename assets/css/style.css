@@ -1,19 +1,51 @@
 .container {
   text-align: center;
+  width: 960px;
+margin: 0 auto;
+
 }
+img {
+  size: 200px;
+}
+
 .navbar {
-  display: inline-block;
-  
- 
+  position: center;
+  background-color: #666666;
+  border-bottom: 8px solid #4AAAA5;
+}
+#homepage {
+  background-color: rgb(116, 216, 216);
 }
 li {
   display: inline-block;
+  
 }
-#img1 {
-float: left;
-margin-right: 10px;
-margin-left: 5px;
+.list-item {
+  margin: 5px;
+  border: 1px solid white;
 }
+.nav-link {
+  color: rgb(235, 228, 228);
+}
+.nav li{
+  display:inline;
+  color: rgb(235, 228, 228);
+}
+.nav a{
+  display:inline-block;
+  padding:10px;
+}
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+input textarea {
+ width: 60px;
+ height: 30px;
+ margin: 25px;
+}
+
 
 h2, h1 {
 font-weight: bold;
@@ -22,59 +54,6 @@ font-weight: bold;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 18px;
 }
-#top{
-background-color: #ffffff;
-position: relative;
-height: 80px;
-border: 1px solid #cccccc;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.container {
-width: 960px;
-margin: 0 auto;
-background-color: transparent;
-}
-#midsection {
-clear: both;
-margin-top: 100px;
-position: relative;
-border: 1px solid #dddddd;
-padding: 30px;
-background-color: #ffffff;
-
-
-}
-#mainhead {
-line-height: 80px;
-background-color: #4aaaa5;
-text-align: center;
-}
-.navbar {
-background-color: transparent;
-}
-.work h3 {
-position: absolute;
-bottom: 20px;
-width: 54.5%;
-padding: 15px;
-margin-bottom: 0;
-font-weight: 300;
-font-size: 20px;
-line-height: 30px;
-color: #ffffff;
-text-align: center;
-background-color: #4aaaa5;
-border-bottom: 0;
-}
-nav {
-float:right;
-
-}
-
-.card-link .codeLink {
-  text-align: center;
-}
-
 
   #footer {
     position: fixed;
@@ -84,9 +63,7 @@ float:right;
     border-top: 8px solid #4AAAA5;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-   /* line-height: 50px;
-    margin-top: 400px;*/
-      left: 0;
+       left: 0;
       bottom: 0;
       width: 100%; 
       clear: both;
@@ -122,13 +99,3 @@ float:right;
       font-size: small;
 }
 
-
-
-/*.card-columns {
-  @include media-breakpoint-only(lg) {
-    column-count: 4;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
-  }
-}

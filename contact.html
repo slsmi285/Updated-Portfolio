@@ -7,62 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Links Bootstrap and CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/d32384a95e.js"></script>
     <title>Sandy Smith: Updated Porfolio II</title>
 </head>
 
-<body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Sandra Smith</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="education.html">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="skills.html">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+<body id="homepage">
 
-    <div id="midsection" class="container">
-        <div class="jumbrotron">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Sandra Smith</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="education.html">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div id="midsection">
+            <div class="jumbrotron">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="color: #e5eeee;">Contact Me</h1>
+                        <hr />
+                    </div>
+                </div>
+
+            </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h1 style="color: #4AAAA5;">Contact Me</h1>
-                    <hr />
-                </div>
-            </div>
-
-            <div class="row blue">
-                <div class="side-content"></div>
-                <div class="main-content">
-                    <div class="content-header">
-                        <a class="anchor" name="contact"></a>
-
-                    </div>
-                    <div class="contact content-body">
+                
+                    <div class="contact content-body" id="contactpg">
                         <form method="POST" action="https://formspree.io/toosandra@gmail.com">
                             <input type="hidden" name="_subject" value="Contact request from personal website">
                             <br>
@@ -74,16 +73,15 @@
                             <button type="submit" class="btn btn-primary">Send</button>
                         </form>
                     </div>
-
                 </div>
-                <div class="side-contect"></div>
             </div>
         </div>
     </div>
-        <div id="footer">
-            Copyright &copy;
-        </div>
+
+    <div id="footer">
+        Copyright &copy2020
     </div>
+    
 </body>
 
 </html>
