@@ -4,17 +4,41 @@
 margin: 0 auto;
 
 }
-img {
-  size: 200px;
+.card-img-top {
+  width: 75%;
+  height: 175px;
+  border: .5px solid darkgrey;
+
+}
+.card-body {
+  border: 1px solid lightgray;
+  box-shadow: 5px 10px darkgrey;
+  
+}
+.card {
+  border: 1px solid lightgray;
+  box-shadow: 5px 10px darkgrey;
+}
+#computer {
+ position: relative;
+ float: right;
+ margin-left: 250px;
 }
 
+p {
+  font-family: "Arial";
+}
 .navbar {
   position: center;
   background-color: #666666;
   border-bottom: 8px solid #4AAAA5;
 }
 #homepage {
-  background-color: rgb(116, 216, 216);
+  background-color: lightsteelblue;
+}
+#aboutborder {
+  border: 1x solid grey:
+  
 }
 li {
   display: inline-block;
@@ -49,6 +73,7 @@ input textarea {
 
 h2, h1 {
 font-weight: bold;
+
 }
 #par1 {
 font-family: Arial, Helvetica, sans-serif;
